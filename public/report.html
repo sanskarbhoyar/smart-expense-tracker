@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartSpend | Monthly Financial Report</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- Persistent Navigation Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Logo & Branding -->
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-indigo-200">
+            <i class="fa-solid fa-wallet text-lg"></i>
+          </div>
+          <div>
+            <span class="text-lg font-bold tracking-tight text-slate-900">SmartSpend</span>
+            <span class="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100">Personal Tracker</span>
+          </div>
+        </div>
+
+        <!-- Desktop Navigation Tabs -->
+        <nav class="hidden md:flex items-center gap-1.5">
+          <a href="index.html" class="nav-link px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2">
+            <i class="fa-solid fa-chart-line text-sm"></i>
+            Dashboard
+          </a>
+          <a href="transactions.html" class="nav-link px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-sm"></i>
+            Transactions
+          </a>
+          <a href="report.html" class="nav-link px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2">
+            <i class="fa-solid fa-calendar-days text-sm"></i>
+            Monthly Report
+          </a>
+        </nav>
+
+        <!-- Right Header Utility -->
+        <div class="flex items-center gap-3">
+          <button id="btn-export-report-csv" class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-semibold text-xs shadow-sm transition-all cursor-pointer">
+            <i class="fa-solid fa-file-arrow-down text-indigo-500"></i>
+            <span>Export CSV</span>
+          </button>
+
+          <!-- Mobile Hamburger Button -->
+          <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-3 space-y-1">
+      <a href="index.html" class="nav-link block px-3 py-2 rounded-lg text-base font-medium">
+        <i class="fa-solid fa-chart-line mr-2"></i> Dashboard
+      </a>
+      <a href="transactions.html" class="nav-link block px-3 py-2 rounded-lg text-base font-medium">
+        <i class="fa-solid fa-list-check mr-2"></i> Transactions
+      </a>
+      <a href="report.html" class="nav-link block px-3 py-2 rounded-lg text-base font-medium">
+        <i class="fa-solid fa-calendar-days mr-2"></i> Monthly Report
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- Page Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-200/70">
+      <div>
+        <h1 class="text-2xl font-extrabold text-slate-900 tracking-tight">Monthly Financial Report</h1>
+        <p class="text-sm text-slate-500 mt-0.5">Aggregated monthly income, expenses, savings margin, and retention rates.</p>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-slate-500 bg-white px-3 py-1.5 rounded-xl border border-slate-200 shadow-sm">
+        <i class="fa-solid fa-calculator text-indigo-500"></i>
+        <span>Automated Server Aggregations</span>
+      </div>
+    </div>
+
+    <!-- Summary KPI Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      
+      <!-- Total Income -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm card-hover flex flex-col justify-between">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Total Income</span>
+          <div class="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xs font-bold">
+            <i class="fa-solid fa-arrow-down-left"></i>
+          </div>
+        </div>
+        <div>
+          <div id="report-kpi-income" class="text-2xl font-black text-slate-900 tracking-tight">$0.00</div>
+          <p class="text-xs text-slate-400 mt-1">Sum across all months</p>
+        </div>
+      </div>
+
+      <!-- Total Expense -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm card-hover flex flex-col justify-between">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Total Expenses</span>
+          <div class="w-8 h-8 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xs font-bold">
+            <i class="fa-solid fa-arrow-up-right"></i>
+          </div>
+        </div>
+        <div>
+          <div id="report-kpi-expense" class="text-2xl font-black text-slate-900 tracking-tight">$0.00</div>
+          <p class="text-xs text-slate-400 mt-1">Total expenses incurred</p>
+        </div>
+      </div>
+
+      <!-- Cumulative Savings -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm card-hover flex flex-col justify-between">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Cumulative Savings</span>
+          <div class="w-8 h-8 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xs font-bold">
+            <i class="fa-solid fa-piggy-bank"></i>
+          </div>
+        </div>
+        <div>
+          <div id="report-kpi-savings" class="text-2xl font-black text-indigo-600 tracking-tight">$0.00</div>
+          <p class="text-xs text-slate-400 mt-1">Net accumulated surplus</p>
+        </div>
+      </div>
+
+      <!-- Overall Rate & Best Month -->
+      <div class="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm card-hover flex flex-col justify-between">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Overall Savings Rate</span>
+          <div class="w-8 h-8 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xs font-bold">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+        </div>
+        <div>
+          <div id="report-kpi-rate" class="text-2xl font-black text-slate-900 tracking-tight">0.0%</div>
+          <p class="text-xs text-slate-400 mt-1 truncate">Best: <span id="report-best-month" class="font-semibold text-slate-700">-</span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Monthly Report Table Card -->
+    <div class="bg-white rounded-2xl border border-slate-200/90 shadow-sm overflow-hidden">
+      
+      <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between bg-white">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-sm">
+            <i class="fa-solid fa-table-cells"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900 text-sm">Monthly Breakdown Table</h3>
+            <p class="text-xs text-slate-400">Aggregated grouped figures computed by server</p>
+          </div>
+        </div>
+        <span class="text-xs font-mono text-slate-400">Sorted Newest First</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50/80 border-b border-slate-200 text-slate-500 text-xs font-bold uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3.5">Month</th>
+              <th scope="col" class="px-6 py-3.5 text-right">Income</th>
+              <th scope="col" class="px-6 py-3.5 text-right">Expense</th>
+              <th scope="col" class="px-6 py-3.5 text-right">Savings</th>
+              <th scope="col" class="px-6 py-3.5 text-right">Savings Rate (%)</th>
+            </tr>
+          </thead>
+          <tbody id="report-table-body" class="divide-y divide-slate-100 text-sm">
+            <!-- Dynamically populated monthly rows -->
+          </tbody>
+          <tfoot class="bg-slate-100/70 border-t-2 border-slate-200 font-bold text-sm">
+            <tr>
+              <td class="px-6 py-4 text-slate-900">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-calculator text-indigo-500"></i>
+                  <span>Total / Overall</span>
+                </div>
+              </td>
+              <td id="foot-total-income" class="px-6 py-4 text-right text-emerald-700">
+                $0.00
+              </td>
+              <td id="foot-total-expense" class="px-6 py-4 text-right text-rose-700">
+                $0.00
+              </td>
+              <td id="foot-total-savings" class="px-6 py-4 text-right text-indigo-700">
+                $0.00
+              </td>
+              <td id="foot-total-rate" class="px-6 py-4 text-right text-slate-800">
+                0.0%
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <!-- Loading State -->
+      <div id="report-loading" class="hidden p-12 text-center text-slate-400">
+        <i class="fa-solid fa-circle-notch fa-spin text-3xl text-indigo-500 mb-3"></i>
+        <p class="text-sm font-medium">Aggregating monthly figures...</p>
+      </div>
+
+      <!-- Empty State -->
+      <div id="report-empty-state" class="hidden p-12 text-center text-slate-400">
+        <div class="w-14 h-14 rounded-2xl bg-slate-100 text-slate-400 flex items-center justify-center mx-auto mb-3 text-2xl">
+          <i class="fa-solid fa-chart-column"></i>
+        </div>
+        <h4 class="font-bold text-slate-700 text-base mb-1">No monthly reports available</h4>
+        <p class="text-xs text-slate-500 max-w-sm mx-auto mb-4">Start by adding your first transaction to generate monthly reports.</p>
+        <a href="index.html" class="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm transition-all">
+          <i class="fa-solid fa-plus"></i> Go to Dashboard
+        </a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 mt-12 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-shield-halved text-indigo-500"></i>
+        <span>Full-Stack Personal Expense Tracker &bull; Node.js + Express + Vanilla JS</span>
+      </div>
+      <div>
+        Persistent CSV Database: <code class="font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">data/expenses.csv</code>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/api.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/report.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+id,date,type,category,amount,description
+tx_1190,2026-11-14,Income,Other Income,195.00,Stock Dividend Distribution
+tx_1210,2026-11-14,Expense,Travel,40.96,Ride-share Airport Commute
+tx_1195,2026-11-13,Expense,Bills,45.00,Water & Waste Management
+tx_1205,2026-11-13,Expense,Food,58.65,Organic Farmers Market
+tx_1219,2026-11-13,Expense,Entertainment,71.35,Live Jazz Concert Ticket
+tx_1200,2026-11-12,Expense,Food,20.88,Artisan Coffee & Bakery
+tx_1214,2026-11-12,Expense,Shopping,51.60,Home Living Decor & Plants
+tx_1194,2026-11-11,Expense,Bills,50.00,Mobile Phone Plan
+tx_1209,2026-11-11,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1189,2026-11-10,Income,Freelance,875.00,Web Application Consulting
+tx_1204,2026-11-10,Expense,Food,91.90,Weekly Supermarket Groceries
+tx_1218,2026-11-10,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1199,2026-11-09,Expense,Food,79.40,Italian Bistro Dinner
+tx_1213,2026-11-09,Expense,Shopping,67.75,Casual Weekend Apparel
+tx_1208,2026-11-08,Expense,Food,20.24,Healthy Lunch Salad Bowl
+tx_1193,2026-11-07,Expense,Bills,95.50,Electric & Heating Utility
+tx_1203,2026-11-07,Expense,Food,11.04,Corner Bakery Fresh Pastries
+tx_1217,2026-11-07,Expense,Entertainment,30.30,IMAX Cinema Tickets & Popcorn
+tx_1198,2026-11-06,Expense,Food,61.80,Organic Farmers Market
+tx_1212,2026-11-06,Expense,Travel,64.60,Intercity Train Ticket
+tx_1207,2026-11-05,Expense,Food,19.80,Artisan Coffee & Bakery
+tx_1192,2026-11-04,Expense,Bills,75.00,High-speed Fiber Internet
+tx_1202,2026-11-04,Expense,Food,32.00,Weekend Food Delivery
+tx_1216,2026-11-04,Expense,Shopping,42.20,Tech Accessories & Cables
+tx_1196,2026-11-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1197,2026-11-03,Expense,Food,97.75,Weekly Supermarket Groceries
+tx_1211,2026-11-03,Expense,Travel,57.86,Gas Station Fuel Refill
+tx_1206,2026-11-02,Expense,Food,75.80,Italian Bistro Dinner
+tx_1220,2026-11-02,Expense,Entertainment,29.80,Board Games & Gaming Pass
+tx_1188,2026-11-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1191,2026-11-01,Expense,Rent,1250.00,Monthly Apartment Rent
+tx_1201,2026-11-01,Expense,Food,20.96,Healthy Lunch Salad Bowl
+tx_1215,2026-11-01,Expense,Shopping,46.35,Kitchenware & Utensils
+tx_1169,2026-10-30,Expense,Food,73.00,Italian Bistro Dinner
+tx_1179,2026-10-29,Expense,Shopping,40.10,Tech Accessories & Cables
+tx_1168,2026-10-27,Expense,Food,56.20,Organic Farmers Market
+tx_1178,2026-10-26,Expense,Shopping,43.90,Kitchenware & Utensils
+tx_1167,2026-10-24,Expense,Food,87.35,Weekly Supermarket Groceries
+tx_1177,2026-10-23,Expense,Shopping,48.45,Home Living Decor & Plants
+tx_1153,2026-10-22,Income,Freelance,900.00,Frontend Widget Development
+tx_1187,2026-10-22,Expense,Other,18.48,Postal Shipping & Parcel Services
+tx_1166,2026-10-21,Expense,Food,10.48,Corner Bakery Fresh Pastries
+tx_1176,2026-10-20,Expense,Shopping,63.20,Casual Weekend Apparel
+tx_1186,2026-10-19,Expense,Health,55.00,Monthly Gym Membership
+tx_1165,2026-10-18,Expense,Food,56.18,Weekend Food Delivery
+tx_1175,2026-10-17,Expense,Travel,61.80,Intercity Train Ticket
+tx_1185,2026-10-16,Expense,Education,39.07,Technical E-Books & Reference
+tx_1164,2026-10-15,Expense,Food,20.40,Healthy Lunch Salad Bowl
+tx_1152,2026-10-14,Income,Pocket Money,180.00,Holiday Gift & Allowance
+tx_1174,2026-10-14,Expense,Travel,56.04,Gas Station Fuel Refill
+tx_1158,2026-10-13,Expense,Bills,40.00,Water & Waste Management
+tx_1184,2026-10-13,Expense,Education,68.88,Web Development Certification
+tx_1163,2026-10-12,Expense,Food,20.04,Artisan Coffee & Bakery
+tx_1157,2026-10-11,Expense,Bills,45.00,Mobile Phone Plan
+tx_1173,2026-10-11,Expense,Travel,39.07,Ride-share Airport Commute
+tx_1151,2026-10-10,Income,Freelance,830.00,Web Application Consulting
+tx_1183,2026-10-10,Expense,Entertainment,28.40,Board Games & Gaming Pass
+tx_1162,2026-10-09,Expense,Food,76.60,Italian Bistro Dinner
+tx_1172,2026-10-08,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1156,2026-10-07,Expense,Bills,105.50,Electric & Heating Utility
+tx_1182,2026-10-07,Expense,Entertainment,68.90,Live Jazz Concert Ticket
+tx_1161,2026-10-06,Expense,Food,59.35,Organic Farmers Market
+tx_1171,2026-10-05,Expense,Food,19.68,Healthy Lunch Salad Bowl
+tx_1155,2026-10-04,Expense,Bills,70.00,High-speed Fiber Internet
+tx_1181,2026-10-04,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1159,2026-10-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1160,2026-10-03,Expense,Food,93.20,Weekly Supermarket Groceries
+tx_1170,2026-10-02,Expense,Food,18.96,Artisan Coffee & Bakery
+tx_1150,2026-10-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1154,2026-10-01,Expense,Rent,1250.00,Monthly Apartment Rent
+tx_1180,2026-10-01,Expense,Entertainment,29.04,IMAX Cinema Tickets & Popcorn
+tx_1132,2026-09-30,Expense,Food,70.20,Italian Bistro Dinner
+tx_1142,2026-09-30,Expense,Shopping,38.00,Tech Accessories & Cables
+tx_1131,2026-09-27,Expense,Food,53.75,Organic Farmers Market
+tx_1141,2026-09-27,Expense,Shopping,41.45,Kitchenware & Utensils
+tx_1130,2026-09-24,Expense,Food,82.80,Weekly Supermarket Groceries
+tx_1140,2026-09-24,Expense,Shopping,45.30,Home Living Decor & Plants
+tx_1116,2026-09-22,Income,Freelance,870.00,Frontend Widget Development
+tx_1129,2026-09-21,Expense,Food,17.92,Corner Bakery Fresh Pastries
+tx_1139,2026-09-21,Expense,Shopping,58.65,Casual Weekend Apparel
+tx_1149,2026-09-21,Expense,Health,55.00,Monthly Gym Membership
+tx_1128,2026-09-18,Expense,Food,54.36,Weekend Food Delivery
+tx_1138,2026-09-18,Expense,Travel,59.00,Intercity Train Ticket
+tx_1148,2026-09-18,Expense,Education,37.18,Technical E-Books & Reference
+tx_1127,2026-09-15,Expense,Food,19.84,Healthy Lunch Salad Bowl
+tx_1137,2026-09-15,Expense,Travel,54.22,Gas Station Fuel Refill
+tx_1147,2026-09-15,Expense,Education,63.91,Web Development Certification
+tx_1115,2026-09-14,Income,Other Income,165.00,Stock Dividend Distribution
+tx_1121,2026-09-13,Expense,Bills,35.00,Water & Waste Management
+tx_1126,2026-09-12,Expense,Food,19.20,Artisan Coffee & Bakery
+tx_1136,2026-09-12,Expense,Travel,37.18,Ride-share Airport Commute
+tx_1146,2026-09-12,Expense,Entertainment,27.00,Board Games & Gaming Pass
+tx_1120,2026-09-11,Expense,Bills,55.00,Mobile Phone Plan
+tx_1114,2026-09-10,Income,Freelance,785.00,Web Application Consulting
+tx_1125,2026-09-09,Expense,Food,73.80,Italian Bistro Dinner
+tx_1135,2026-09-09,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1145,2026-09-09,Expense,Entertainment,66.45,Live Jazz Concert Ticket
+tx_1119,2026-09-07,Expense,Bills,100.50,Electric & Heating Utility
+tx_1124,2026-09-06,Expense,Food,56.90,Organic Farmers Market
+tx_1134,2026-09-06,Expense,Food,19.12,Healthy Lunch Salad Bowl
+tx_1144,2026-09-06,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1118,2026-09-04,Expense,Bills,65.00,High-speed Fiber Internet
+tx_1122,2026-09-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1123,2026-09-03,Expense,Food,88.65,Weekly Supermarket Groceries
+tx_1133,2026-09-03,Expense,Food,18.12,Artisan Coffee & Bakery
+tx_1143,2026-09-03,Expense,Entertainment,27.78,IMAX Cinema Tickets & Popcorn
+tx_1113,2026-09-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1117,2026-09-01,Expense,Rent,1250.00,Monthly Apartment Rent
+tx_1094,2026-08-30,Expense,Food,67.40,Italian Bistro Dinner
+tx_1104,2026-08-29,Expense,Shopping,35.90,Tech Accessories & Cables
+tx_1093,2026-08-27,Expense,Food,51.30,Organic Farmers Market
+tx_1103,2026-08-26,Expense,Shopping,39.00,Kitchenware & Utensils
+tx_1092,2026-08-24,Expense,Food,78.25,Weekly Supermarket Groceries
+tx_1102,2026-08-23,Expense,Shopping,42.15,Home Living Decor & Plants
+tx_1078,2026-08-22,Income,Freelance,840.00,Frontend Widget Development
+tx_1112,2026-08-22,Expense,Other,16.24,Postal Shipping & Parcel Services
+tx_1091,2026-08-21,Expense,Food,17.36,Corner Bakery Fresh Pastries
+tx_1101,2026-08-20,Expense,Shopping,54.10,Casual Weekend Apparel
+tx_1111,2026-08-19,Expense,Health,55.00,Monthly Gym Membership
+tx_1090,2026-08-18,Expense,Food,52.54,Weekend Food Delivery
+tx_1100,2026-08-17,Expense,Travel,56.20,Intercity Train Ticket
+tx_1110,2026-08-16,Expense,Education,35.29,Technical E-Books & Reference
+tx_1089,2026-08-15,Expense,Food,19.28,Healthy Lunch Salad Bowl
+tx_1077,2026-08-14,Income,Pocket Money,150.00,Holiday Gift & Allowance
+tx_1099,2026-08-14,Expense,Travel,52.40,Gas Station Fuel Refill
+tx_1083,2026-08-13,Expense,Bills,45.00,Water & Waste Management
+tx_1109,2026-08-13,Expense,Education,58.94,Web Development Certification
+tx_1088,2026-08-12,Expense,Food,18.36,Artisan Coffee & Bakery
+tx_1082,2026-08-11,Expense,Bills,50.00,Mobile Phone Plan
+tx_1098,2026-08-11,Expense,Travel,35.29,Ride-share Airport Commute
+tx_1076,2026-08-10,Income,Freelance,740.00,Web Application Consulting
+tx_1108,2026-08-10,Expense,Entertainment,25.60,Board Games & Gaming Pass
+tx_1087,2026-08-09,Expense,Food,71.00,Italian Bistro Dinner
+tx_1097,2026-08-08,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1081,2026-08-07,Expense,Bills,95.50,Electric & Heating Utility
+tx_1107,2026-08-07,Expense,Entertainment,64.00,Live Jazz Concert Ticket
+tx_1086,2026-08-06,Expense,Food,54.45,Organic Farmers Market
+tx_1096,2026-08-05,Expense,Food,18.56,Healthy Lunch Salad Bowl
+tx_1080,2026-08-04,Expense,Bills,75.00,High-speed Fiber Internet
+tx_1106,2026-08-04,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1084,2026-08-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1085,2026-08-03,Expense,Food,84.10,Weekly Supermarket Groceries
+tx_1095,2026-08-02,Expense,Food,17.28,Artisan Coffee & Bakery
+tx_1075,2026-08-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1079,2026-08-01,Expense,Rent,1250.00,Monthly Apartment Rent
+tx_1105,2026-08-01,Expense,Entertainment,26.52,IMAX Cinema Tickets & Popcorn
+tx_1057,2026-07-30,Expense,Food,64.60,Italian Bistro Dinner
+tx_1067,2026-07-29,Expense,Shopping,33.80,Tech Accessories & Cables
+tx_1056,2026-07-27,Expense,Food,48.85,Organic Farmers Market
+tx_1066,2026-07-26,Expense,Shopping,36.55,Kitchenware & Utensils
+tx_1055,2026-07-24,Expense,Food,138.70,Weekly Supermarket Groceries
+tx_1065,2026-07-23,Expense,Shopping,39.00,Home Living Decor & Plants
+tx_1041,2026-07-22,Income,Freelance,810.00,Frontend Widget Development
+tx_1054,2026-07-21,Expense,Food,16.80,Corner Bakery Fresh Pastries
+tx_1064,2026-07-20,Expense,Shopping,49.55,Casual Weekend Apparel
+tx_1074,2026-07-19,Expense,Health,55.00,Monthly Gym Membership
+tx_1053,2026-07-18,Expense,Food,50.72,Weekend Food Delivery
+tx_1063,2026-07-17,Expense,Travel,53.40,Intercity Train Ticket
+tx_1073,2026-07-16,Expense,Education,33.40,Technical E-Books & Reference
+tx_1052,2026-07-15,Expense,Food,18.72,Healthy Lunch Salad Bowl
+tx_1040,2026-07-14,Income,Other Income,135.00,Stock Dividend Distribution
+tx_1062,2026-07-14,Expense,Travel,50.58,Gas Station Fuel Refill
+tx_1046,2026-07-13,Expense,Bills,40.00,Water & Waste Management
+tx_1072,2026-07-13,Expense,Education,53.97,Web Development Certification
+tx_1051,2026-07-12,Expense,Food,17.52,Artisan Coffee & Bakery
+tx_1045,2026-07-11,Expense,Bills,45.00,Mobile Phone Plan
+tx_1061,2026-07-11,Expense,Travel,33.40,Ride-share Airport Commute
+tx_1039,2026-07-10,Income,Freelance,695.00,Web Application Consulting
+tx_1071,2026-07-10,Expense,Entertainment,24.20,Board Games & Gaming Pass
+tx_1050,2026-07-09,Expense,Food,68.20,Italian Bistro Dinner
+tx_1060,2026-07-08,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1044,2026-07-07,Expense,Bills,105.50,Electric & Heating Utility
+tx_1070,2026-07-07,Expense,Entertainment,61.55,Live Jazz Concert Ticket
+tx_1049,2026-07-06,Expense,Food,52.00,Organic Farmers Market
+tx_1059,2026-07-05,Expense,Food,18.00,Healthy Lunch Salad Bowl
+tx_1043,2026-07-04,Expense,Bills,70.00,High-speed Fiber Internet
+tx_1069,2026-07-04,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1047,2026-07-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1048,2026-07-03,Expense,Food,79.55,Weekly Supermarket Groceries
+tx_1058,2026-07-02,Expense,Food,16.44,Artisan Coffee & Bakery
+tx_1038,2026-07-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1042,2026-07-01,Expense,Rent,1250.00,Monthly Apartment Rent
+tx_1068,2026-07-01,Expense,Entertainment,25.26,IMAX Cinema Tickets & Popcorn
+tx_1020,2026-06-30,Expense,Food,61.80,Italian Bistro Dinner
+tx_1030,2026-06-30,Expense,Shopping,31.70,Tech Accessories & Cables
+tx_1019,2026-06-27,Expense,Food,46.40,Organic Farmers Market
+tx_1029,2026-06-27,Expense,Shopping,34.10,Kitchenware & Utensils
+tx_1018,2026-06-24,Expense,Food,134.15,Weekly Supermarket Groceries
+tx_1028,2026-06-24,Expense,Shopping,35.85,Home Living Decor & Plants
+tx_1004,2026-06-22,Income,Freelance,780.00,Frontend Widget Development
+tx_1017,2026-06-21,Expense,Food,16.24,Corner Bakery Fresh Pastries
+tx_1027,2026-06-21,Expense,Shopping,45.00,Casual Weekend Apparel
+tx_1037,2026-06-21,Expense,Health,55.00,Monthly Gym Membership
+tx_1016,2026-06-18,Expense,Food,48.90,Weekend Food Delivery
+tx_1026,2026-06-18,Expense,Travel,50.60,Intercity Train Ticket
+tx_1036,2026-06-18,Expense,Education,31.51,Technical E-Books & Reference
+tx_1015,2026-06-15,Expense,Food,18.16,Healthy Lunch Salad Bowl
+tx_1025,2026-06-15,Expense,Travel,48.76,Gas Station Fuel Refill
+tx_1035,2026-06-15,Expense,Education,49.00,Web Development Certification
+tx_1003,2026-06-14,Income,Pocket Money,120.00,Holiday Gift & Allowance
+tx_1009,2026-06-13,Expense,Bills,35.00,Water & Waste Management
+tx_1014,2026-06-12,Expense,Food,16.68,Artisan Coffee & Bakery
+tx_1024,2026-06-12,Expense,Travel,31.51,Ride-share Airport Commute
+tx_1034,2026-06-12,Expense,Entertainment,22.80,Board Games & Gaming Pass
+tx_1008,2026-06-11,Expense,Bills,55.00,Mobile Phone Plan
+tx_1002,2026-06-10,Income,Freelance,650.00,Web Application Consulting
+tx_1013,2026-06-09,Expense,Food,65.40,Italian Bistro Dinner
+tx_1023,2026-06-09,Expense,Travel,80.00,Monthly Metro Transit Pass
+tx_1033,2026-06-09,Expense,Entertainment,59.10,Live Jazz Concert Ticket
+tx_1007,2026-06-07,Expense,Bills,100.50,Electric & Heating Utility
+tx_1012,2026-06-06,Expense,Food,49.55,Organic Farmers Market
+tx_1022,2026-06-06,Expense,Food,17.44,Healthy Lunch Salad Bowl
+tx_1032,2026-06-06,Expense,Entertainment,29.99,Streaming Media Subscriptions
+tx_1006,2026-06-04,Expense,Bills,65.00,High-speed Fiber Internet
+tx_1010,2026-06-03,Expense,Health,55.00,Monthly Gym Membership
+tx_1011,2026-06-03,Expense,Food,75.00,Weekly Supermarket Groceries
+tx_1021,2026-06-03,Expense,Food,15.60,Artisan Coffee & Bakery
+tx_1031,2026-06-03,Expense,Entertainment,24.00,IMAX Cinema Tickets & Popcorn
+tx_1001,2026-06-01,Income,Salary,4200.00,Monthly Corporate Salary
+tx_1005,2026-06-01,Expense,Rent,1250.00,Monthly Apartment Rent
